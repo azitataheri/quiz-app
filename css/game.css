@@ -108,3 +108,20 @@ h3{
     background-color: #6757d9;
     color: #fff;
 }
+
+
+.correct{
+    background-color: #5bd7bc;
+}
+
+.incorrect{
+    background-color: #f36681;
+}
+
+/* .correct:hover{
+    background-color: #5bd7bc;
+}
+
+.incorrect:hover{
+    background-color: #f36681;
+} */
