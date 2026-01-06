@@ -9,6 +9,7 @@ const scoreText = document.getElementById('score')
 const next = document.getElementById('next-button')
 const finish = document.getElementById('finish-button')
 const before = document.getElementById('before-button')
+const error = document.getElementById('error')
 
 
 const CORRECT_BONUS = 10; // score for any correct answer
@@ -28,7 +29,8 @@ const fetchData = async () => {
     console.log(formattedData);
     start()
   } catch (error) {
-    console.log('error');
+   loader.style.display = 'none'
+   error.style.display = 'block'
 
   }
 
@@ -40,6 +42,7 @@ const start = () => {
   showQuestion()
   loader.style.display = 'none'
   container.style.display = 'block'
+  error.style.display = 'none'
 }
 
 

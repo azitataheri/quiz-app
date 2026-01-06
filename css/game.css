@@ -130,3 +130,18 @@ h3{
 .incorrect:hover{
     background-color: #f36681;
 } */
+
+
+#error{
+    display: none;
+    background-color: #f36681;
+    color: #fff;
+    width: 500px;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
